@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spoon on the Moon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      background: url('hero-section.jpg') no-repeat center center/cover;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    header .cta {
+      margin-top: 20px;
+    }
+    header .cta button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ffd700;
+      color: #000;
+      cursor: pointer;
+    }
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .roadmap, .tokenomics {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .roadmap div, .tokenomics div {
+      flex: 1 1 300px;
+      background: #333;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spoon on the Moon</h1>
+    <p>The Meme Coin That’s Out of This World!</p>
+    <div class="cta">
+      <button onclick="window.location.href='#buy'">Buy $SPN</button>
+      <button onclick="window.location.href='#learn'">Learn More</button>
+    </div>
+  </header>
+  <section id="learn">
+    <h2>What is Spoon on the Moon?</h2>
+    <p>$SPN is the ultimate meme coin inspired by putting a spoon on the moon. Backed by a growing community, it’s here to skyrocket to the moon and beyond!</p>
+    <img src="cartoon-spoon-moon.jpg" alt="Cartoon Spoon on the Moon">
+  </section>
+  <section id="tokenomics">
+    <h2>Spoononomics</h2>
+    <div class="tokenomics">
+      <div><strong>Total Supply:</strong> 1,000,000,000 $SPN</div>
+      <div><strong>Burn Mechanism:</strong> Reduces supply over time</div>
+      <div><strong>Community Rewards:</strong> 5% redistributions</div>
+    </div>
+  </section>
+  <section id="roadmap">
+    <h2>The Moon Mission</h2>
+    <div class="roadmap">
+      <div><strong>Phase 1:</strong> Launch and build community</div>
+      <div><strong>Phase 2:</strong> Exchange listings</div>
+      <div><strong>Phase 3:</strong> Send a real spoon to the moon!</div>
+      <div><strong>Phase 4:</strong> Full Moon Party</div>
+    </div>
+    <img src="roadmap-rocket.jpg" alt="Roadmap Rocket">
+  </section>
+  <footer>
+    <p>Spoon on the Moon © 2025. Powered by memes and dreams.</p>
+    <p><a href="#disclaimer">Disclaimer</a></p>
+  </footer>
+</body>
+</html>
